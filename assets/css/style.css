@@ -2,7 +2,7 @@ i.fa{
 	padding-right: 5px;
 }
 div.group, table{
-	max-width: 780px !important;
+	/*max-width: 780px !important;*/
 	margin: 0 auto;
 }
 .headerTitle{
