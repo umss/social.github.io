@@ -11,6 +11,9 @@ div.group, table{
 a.btn{
 	margin: 3px 0;
 }
+.imgLink{
+	margin-right: 20px;
+}
 
 .footer {
 	width: 100%;
@@ -55,6 +58,10 @@ div.logo{
 	opacity: 0.8;
 }
 
+.titleCanales{
+	font-weight: bold;
+}
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -71,15 +78,20 @@ div.logo{
 		max-width: 50px;
 	}
 	.jumbotron h1{
-		display: block;
+		font-size: 1.3em;
+		text-align: left;
 	}
-	div.logo{
-		margin-top: 30px;
-		text-align: center;
-		display: block;
-	}
-
+	
 }
+
+/* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    	.titleCanales{
+		display: none;
+	}
+    }
+
 @media (min-width: @screen-sm-min) {
 	.jumbotron{
 		text-align: center;
