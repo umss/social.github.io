@@ -34,6 +34,7 @@ a.btn{
 }
 .jumbotron img{
 	max-width: 100px;
+	max-height: 100px;
 }
 div.logo{
 	margin-top: 20px;
@@ -54,6 +55,10 @@ div.logo{
 	background-color: #301C46;
 	background-image: linear-gradient(to bottom,#301C46 0,#351F4E 100%)
 }
+.footer{
+	margin-top: 25px;
+	padding:50px 0;
+}
 .footer img:hover{
 	opacity: 0.8;
 }
@@ -62,6 +67,23 @@ div.logo{
 	font-weight: bold;
 }
 
+
+.media-body p{
+	color: #A1A1A1;
+}
+.media-body p:hover{
+	text-decoration: none;
+}
+.carrerasHome:hover{
+	text-decoration: none;
+}
+.datosGeneral{
+	display: block;
+	clear: both;
+}
+.headerTitle{
+	clear: both;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -88,8 +110,8 @@ div.logo{
     @media only screen and (max-width : 768px) {
 
     	.titleCanales{
-		display: none;
-	}
+			display: none;
+		}
     }
 
 @media (min-width: @screen-sm-min) {
