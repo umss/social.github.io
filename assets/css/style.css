@@ -84,6 +84,12 @@ div.logo{
 .headerTitle{
 	clear: both;
 }
+
+.descriptionHome{
+	display: block !important;
+	text-align: left;
+	font-size: 0.7em !important;
+}
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
